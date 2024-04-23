@@ -18,7 +18,7 @@ body {
 .container-center {
   display: flex;
   justify-content: space-between;
-  max-width: 75rem;
+  max-width: 65rem;
   margin: auto;
 
 }
@@ -48,4 +48,58 @@ body {
 
 .onHover:hover{
   color: var(--primary-colour);
+}
+
+.intro-div{
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+
+.color{
+  color: var(--primary-colour);
+}
+
+.line-height{
+  line-height: 1.5rem;
+}
+.line-height-typewriter{
+  line-height: 0.2rem;
+}
+
+.bio-para{
+  color: gray;
+  max-width: 35rem;
+}
+
+/* .img-container{
+
+} */
+.Aj-img{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-colour);
+}
+
+
+.resume-button{
+  height: 3.5rem;
+  width: 17rem;
+  border-radius: 20px;
+  background-color: var(--primary-colour);
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+ 
+}
+
+.resume-button:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,65,1) 100%, rgba(0,212,255,1) 100%);
+  color: var(--primary-colour);
+}
+
+.anchor-style-none{
+  text-decoration: none;
+  color: white ;
 }
