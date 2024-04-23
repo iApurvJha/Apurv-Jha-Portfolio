@@ -45,7 +45,7 @@ function App() {
         </p>
         </div>
         <div id = "img" className='spacing' >
-        <img className='Aj-img ' src='./src/assets/Aj_img.jpg'></img>
+        <img className='Aj-img ' src='https://avatars.githubusercontent.com/u/129882332?v=4'></img>
         </div>
       </header>
 
